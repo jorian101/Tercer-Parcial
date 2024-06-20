@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header-count {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+}

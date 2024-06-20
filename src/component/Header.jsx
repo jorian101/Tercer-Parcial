@@ -1,27 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import './Header.css';
 
-const Header = ({ setSelectedPage }) => {
+const Header = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink to="/home" onClick={() => setSelectedPage('Home')}>
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/about" onClick={() => setSelectedPage('About')}>
-            About
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/dashboard" onClick={() => setSelectedPage('Dashboard')}>
-            Dashboard
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
+    <div className="header">
+      <div className="header-title">Exercícios</div>
+      <div className="header-count">4</div>
+    </div>
   );
 };
 
